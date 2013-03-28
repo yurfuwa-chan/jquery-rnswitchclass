@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script src="../lib/jquery.js"></script>
+	<script src="../jquery.rnswitchclass.js"></script>
+	<script>
+		$(function(){
+			$(".target-list li").click(function(){
+				$(this).rnswitchclass("close","open");
+			});
+		});
+	</script>
+</head>
+<body>
+	<div id="wrap">
+		<ul class="target-list">
+			<li class="close">hoge</li>
+			<li>fuga</li>
+			<li>hoge</li>
+			<li>fuga</li>
+			<li>hoge</li>
+			<li>fuga</li>
+			<li>hoge</li>
+			<li>fuga</li>
+			<li>hoge</li>
+			<li>fuga</li>
+			<li>hoge</li>
+		</ul>
+	</div>
+</body>
+</html>
